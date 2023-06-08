@@ -46,30 +46,29 @@
     </header>
     <main>
         <section id="display">
-            0
+            <p id="result">0</p>
         </section>
         <section id="keys">
-            <button id="clear" class="misc">AC</button>
-            <button id="toggle-pos-neg" class="misc">+/-</button>
-            <button id="percentage" class="misc"> % </button>
-            <button id="divide" class="operator"> / </button>
+            <button id="clear" class="misc" data-action='clear'>AC</button>
+            <button id="toggle-pos-neg" class="misc" data-action='plus-minus'>+/-</button>
+            <button id="percentage" class="misc" data-action="percentage"> % </button>
+            <button id="divide" class="operator" data-action="divide"> / </button>
             <button id="seven" class="number">7</button>
             <button id="eight" class="number">8</button>
             <button id="nine" class="number">9</button>
-            <button id="multiply" class="operator"> X </button>
+            <button id="multiply" class="operator" data-action="multiply"> X </button>
             <button id="four" class="number">4</button>
             <button id="five" class="number">5</button>
             <button id="six" class="number">6</button>
-            <button id="subtract" class="operator"> - </button>
+            <button id="subtract" class="operator" data-action="subtract"> - </button>
             <button id="one" class="number">1</button>
             <button id="two" class="number">2</button>
             <button id="three" class="number">3</button>
-            <button id="add" class="operator"> + </button>
+            <button id="add" class="operator" data-action="add"> + </button>
             <button id="zero" class="number">0</button>
-            <button id="point" class="number">.</button>
-            <button id="equal" class="operator"> = </button>
+            <button id="point" class="number" data-action="point">.</button>
+            <button id="equal" class="operator" data-action='calculate'> = </button>
         </section>
-
     </main>
     <footer>
         <!-- Add copyright notices and other footer content here. -->
